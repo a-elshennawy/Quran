@@ -1,0 +1,68 @@
+@import url(./fonts.css);
+* {
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+:root {
+  font-size: 16px;
+}
+
+.background {
+  position: absolute;
+  inset: 0;
+  background-image: url(../img/bg-big.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: brightness(60%);
+  z-index: -1111;
+}
+
+.quran {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  h1 {
+    background-color: #ffffff7c;
+    color: #000;
+    font-family: Amiri;
+    letter-spacing: 0.125rem;
+    border-radius: 0.313rem;
+    padding: 0.625rem;
+    backdrop-filter: blur(10px);
+  }
+
+  h2 {
+    background-color: #ffffff7c;
+    color: #000;
+    border-radius: 0.313rem;
+    font-family: WinkySans;
+    padding: 0.625rem;
+  }
+
+  #btn {
+    margin-top: 0.625rem;
+    border: none;
+    border-radius: 0.313rem;
+    padding: 0.313rem 0.625rem;
+    font-family: WinkySans;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      box-shadow: 0 0 0.625rem #fff;
+    }
+  }
+}
+
+/* responsive */
+
+@media screen and(max-width:480px) {
+  :root {
+    font-size: 12px;
+  }
+}
