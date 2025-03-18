@@ -27,7 +27,7 @@
   transform: translate(-50%, -50%);
   text-align: center;
 
-  h3 {
+  #ayah {
     background-color: #ffffff7c;
     color: #000;
     font-family: Amiri;
@@ -37,7 +37,7 @@
     backdrop-filter: blur(10px);
   }
 
-  h4 {
+  #translatedAyah {
     background-color: #ffffff7c;
     color: #000;
     border-radius: 0.313rem;
