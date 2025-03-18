@@ -27,7 +27,7 @@
   transform: translate(-50%, -50%);
   text-align: center;
 
-  h1 {
+  h3 {
     background-color: #ffffff7c;
     color: #000;
     font-family: Amiri;
@@ -37,7 +37,7 @@
     backdrop-filter: blur(10px);
   }
 
-  h2 {
+  h4 {
     background-color: #ffffff7c;
     color: #000;
     border-radius: 0.313rem;
