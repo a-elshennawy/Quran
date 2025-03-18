@@ -21,7 +21,7 @@
 }
 
 .quran {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -63,6 +63,6 @@
 
 @media screen and(max-width:480px) {
   :root {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
