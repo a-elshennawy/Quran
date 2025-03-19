@@ -12,12 +12,7 @@ async function fetchRandomAyah() {
 
     if (data.data) {
       let arabicAyah = data.data[0].text;
-      let englishTranslation = data.data[1].text;
-
       document.getElementById("ayah").innerText = `" ${arabicAyah} "`;
-      document.getElementById(
-        "translatedAyah"
-      ).innerText = `" ${englishTranslation} "`;
     } else {
       console.error("Error getting data");
     }

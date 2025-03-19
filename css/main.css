@@ -32,17 +32,8 @@
     color: #000;
     font-family: Amiri;
     letter-spacing: 0.125rem;
-    border-radius: 0.313rem;
     padding: 0.625rem;
     backdrop-filter: blur(10px);
-  }
-
-  #translatedAyah {
-    background-color: #ffffff7c;
-    color: #000;
-    border-radius: 0.313rem;
-    font-family: WinkySans;
-    padding: 0.625rem;
   }
 
   #btn {
